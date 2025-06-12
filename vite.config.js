@@ -3,15 +3,11 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig(({ command, mode }) => {
-  const config = {
+  // Use /website/ for production builds (GitHub Pages), / for everything else
+  const base = mode === 'production' ? '/website/' : '/'
+  
+  return {
     plugins: [react()],
-    base: '/',
+    base: base,
   }
-
-  // Only use /website/ base path for production builds (GitHub Pages)
-  if (command === 'build' && mode === 'production') {
-    config.base = '/website/'
-  }
-
-  return config
 })
