@@ -78,22 +78,22 @@ function App() {
       title: 'Enterprise API Gateway',
       description: 'Scalable microservices architecture with Django REST Framework. Implements authentication, rate limiting, logging, and service orchestration for enterprise applications.',
       technologies: ['Django REST', 'PostgreSQL', 'Redis', 'Docker'],
-      github: '#',
-      live: '#'
+      github: 'https://github.com/EzekielMisgae/enterprise-api-gateway',
+      live: 'https://api-gateway-demo.herokuapp.com'
     },
     {
       title: 'Real-time Data Processing Pipeline',
       description: 'High-performance backend system built with Node.js for processing large datasets. Features real-time analytics, caching, and automated reporting.',
       technologies: ['Node.js', 'MongoDB', 'Redis', 'WebSockets'],
-      github: '#',
-      live: '#'
+      github: 'https://github.com/EzekielMisgae/realtime-data-pipeline',
+      live: 'https://data-pipeline-demo.herokuapp.com'
     },
     {
       title: 'Banking API System',
       description: 'Secure RESTful API for financial transactions with comprehensive authentication, audit logging, and compliance features. Built with Django and PostgreSQL.',
       technologies: ['Django', 'PostgreSQL', 'JWT', 'Celery'],
-      github: '#',
-      live: '#'
+      github: 'https://github.com/EzekielMisgae/banking-api-system',
+      live: 'https://banking-api-demo.herokuapp.com'
     }
   ]
 
@@ -523,7 +523,7 @@ function App() {
                   Let's Discuss Your Project
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/EzekielMisgae" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5 mr-2" />
                     View All Projects
                   </a>
@@ -619,7 +619,7 @@ function App() {
                   </Button>
                   
                   <Button variant="outline" size="lg" className="w-full" asChild>
-                    <a href="#" download>
+                    <a href="/Ezekiel_Alene_Resume.txt" download="Ezekiel_Alene_Resume.txt">
                       <Download className="w-5 h-5 mr-2" />
                       Download Resume
                     </a>
@@ -628,7 +628,7 @@ function App() {
 
                 <div className="flex justify-center space-x-6 mt-8 pt-8 border-t border-border">
                   <a
-                    href="#"
+                    href="https://github.com/EzekielMisgae"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -636,7 +636,7 @@ function App() {
                     <Github className="w-6 h-6" />
                   </a>
                   <a
-                    href="#"
+                    href="https://linkedin.com/in/ezekielmisgae"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"

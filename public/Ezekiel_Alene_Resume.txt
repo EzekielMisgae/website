@@ -1,0 +1,79 @@
+EZEKIEL M. ALENE
+Software Engineer | Backend Specialist
+
+CONTACT INFORMATION
+Email: ezkielmisgae@gmail.com
+Phone: +251975325354
+Location: Addis Ababa, Ethiopia
+GitHub: github.com/EzekielMisgae
+LinkedIn: linkedin.com/in/ezekiel-alene
+
+EDUCATION
+Bachelor of Science in Software Engineering
+Bahirdar University, Institute of Technology
+Graduated: 2024
+
+TECHNICAL SKILLS
+Backend Development:
+- Django REST Framework (Expert)
+- Node.js & Express.js (Advanced)
+- Python (Expert)
+- JavaScript (Advanced)
+
+Databases:
+- PostgreSQL (Advanced)
+- MongoDB (Advanced)
+- Redis (Intermediate)
+
+DevOps & Tools:
+- Docker & Containerization
+- Git Version Control
+- RESTful API Design
+- Microservices Architecture
+- JWT Authentication
+- Celery Task Queue
+
+Frontend (Supporting):
+- React.js (Intermediate)
+- HTML5/CSS3
+- Responsive Design
+
+PROFESSIONAL EXPERIENCE
+Backend Developer | Freelance
+2023 - Present
+- Developed scalable REST APIs using Django REST Framework
+- Implemented microservices architecture for enterprise applications
+- Optimized database queries and improved application performance
+- Built secure authentication and authorization systems
+- Integrated third-party APIs and payment gateways
+
+PROJECTS
+Enterprise API Gateway
+- Scalable microservices architecture with Django REST Framework
+- Authentication, rate limiting, and service orchestration
+- Technologies: Django REST, PostgreSQL, Redis, Docker
+
+Real-time Data Processing Pipeline
+- High-performance backend system with Node.js
+- Real-time analytics and automated reporting
+- Technologies: Node.js, MongoDB, Redis, WebSockets
+
+Banking API System
+- Secure RESTful API for financial transactions
+- Comprehensive authentication and audit logging
+- Technologies: Django, PostgreSQL, JWT, Celery
+
+CERTIFICATIONS & ACHIEVEMENTS
+- Full Stack Web Development Certification
+- Database Design and Optimization
+- RESTful API Development Best Practices
+
+LANGUAGES
+- English (Fluent)
+- Amharic (Native)
+
+INTERESTS
+- Open Source Contribution
+- System Architecture Design
+- Performance Optimization
+- Emerging Backend Technologies 
