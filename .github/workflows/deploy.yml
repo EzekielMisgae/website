@@ -38,7 +38,7 @@ jobs:
       run: npm ci
       
     - name: Build
-      run: npm run build:github
+      run: npm run build
       
     - name: List build output
       run: ls -la dist/
