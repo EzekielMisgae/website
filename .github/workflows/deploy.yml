@@ -43,8 +43,17 @@ jobs:
     - name: List build output
       run: ls -la dist/
       
+    - name: Check repository permissions
+      run: |
+        echo "Repository: ${{ github.repository }}"
+        echo "Actor: ${{ github.actor }}"
+        echo "Token permissions: ${{ toJSON(github.token) }}"
+      
     - name: Setup Pages
       uses: actions/configure-pages@v4
+      with:
+        # Enable Pages if not already enabled
+        enablement: true
       
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
