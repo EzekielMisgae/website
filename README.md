@@ -1,166 +1,83 @@
-# Ezekiel M. Alene - Portfolio Website
+# Ezekiel M. Alene - Portfolio
 
-A modern, responsive portfolio website built with React, Vite, and Tailwind CSS, featuring smooth animations and a beautiful dark mode design.
+A modern, elegant portfolio website showcasing my work as a software engineer specializing in backend development.
 
-## 🌟 Features
+## 🚀 Live Demo
 
-- **Modern Design**: Clean, minimalist interface with gradient accents and glass morphism effects
-- **Dark Mode**: Dark theme enabled by default with elegant color scheme
-- **Responsive**: Fully responsive design that works on all devices
-- **Smooth Animations**: Framer Motion animations for enhanced user experience
-- **Interactive Navigation**: Smooth scrolling navigation with active section highlighting
-- **Contact Integration**: Direct email and phone contact options
-- **Performance Optimized**: Built with Vite for fast development and optimal production builds
+Visit the live site: [Coming Soon - Deploy to Render]
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Frontend**: React 19, Vite
-- **Styling**: Tailwind CSS 4.x with custom configurations
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **UI Components**: Radix UI primitives
-- **Utilities**: clsx, tailwind-merge, class-variance-authority
+- **React 19** - Modern React with latest features
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Smooth animations and transitions
+- **Lucide React** - Beautiful icons
+- **Radix UI** - Accessible UI components
 
-## 🚀 Getting Started
+## ✨ Features
 
-### Prerequisites
+- **Modern Design** - Clean, minimalist, and professional
+- **Dark Mode** - Elegant dark theme
+- **Responsive** - Works perfectly on all devices
+- **Smooth Animations** - Powered by Framer Motion
+- **Fast Loading** - Optimized for performance
+- **Accessible** - Built with accessibility in mind
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-## 📂 Project Structure
+## 🏗️ Project Structure
 
 ```
 portfolio/
 ├── src/
-│   ├── components/
-│   │   └── ui/
-│   │       └── button.jsx         # Reusable button component
-│   │   ├── lib/
-│   │   │   └── utils.js               # Utility functions
-│   │   ├── App.jsx                    # Main application component
-│   │   ├── index.css                  # Global styles and Tailwind imports
-│   │   └── main.jsx                   # Application entry point
-│   ├── public/                        # Static assets
-│   ├── tailwind.config.js            # Tailwind configuration
-│   ├── postcss.config.js             # PostCSS configuration
-│   └── vite.config.js                # Vite configuration
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── styles/        # Global styles
+│   └── utils/         # Utility functions
+├── public/            # Static assets
+├── dist/              # Build output
+└── render.yaml        # Render deployment config
 ```
 
-## 🎨 Customization
+## 🚀 Deployment
 
-### Colors & Themes
+This project is configured for automatic deployment on [Render](https://render.com).
 
-The website uses a custom color scheme defined in `src/index.css` with CSS variables. You can customize the colors by modifying the CSS custom properties:
+### Deploy to Render
 
-```css
-:root {
-  --background: 0 0% 100%;
-  --foreground: 0 0% 3.9%;
-  --primary: 0 0% 9%;
-  /* ... other color variables */
-}
-```
+1. Fork this repository
+2. Connect your GitHub account to Render
+3. Create a new Static Site on Render
+4. Connect your forked repository
+5. Render will automatically detect the `render.yaml` configuration
+6. Your site will be deployed automatically!
 
-### Animations
+### Local Development
 
-Custom animations are defined in `tailwind.config.js`:
-
-- `fade-in`: Smooth fade-in effect
-- `fade-up`: Fade in with upward movement
-- `slide-up`: Slide up animation
-- `float`: Floating animation for decorative elements
-- `glow`: Glowing effect for interactive elements
-
-### Content
-
-Update the personal information in `src/App.jsx`:
-
-- Name and branding
-- Skills and technologies
-- Project information
-- Contact details
-
-### Adding Your Photo
-
-1. **Add your photo**: Place your professional photo in the `public` folder (e.g., `public/your-photo.jpg`)
-2. **Update the code**: In `src/App.jsx`, find the photo placeholder section and:
-   - Comment out the placeholder div
-   - Uncomment the img tag
-   - Update the `src` path to match your photo filename
-
-Example:
-```jsx
-<img 
-  src="/your-photo.jpg" 
-  alt="Ezekiel M. Alene" 
-  className="w-full h-full object-cover rounded-2xl"
-/>
-```
-
-## 🔧 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## 📱 Sections
-
-1. **Hero**: Introduction with animated title and call-to-action buttons
-2. **About**: Personal information and education background
-3. **Skills**: Technology stack with animated progress bars
-4. **Projects**: Featured projects with technologies and links
-5. **Contact**: Contact information and direct communication options
-
-## 🌐 Deployment
-
-### GitHub Pages
-
-1. Build the project:
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
-2. Deploy the `dist` folder to GitHub Pages or your preferred hosting service.
+## 📱 Contact
 
-### Custom Domain
-
-To use a custom domain:
-
-1. Add a `CNAME` file to the `public` directory with your domain
-2. Configure your DNS settings to point to your hosting service
+- **Email**: ezkielmisgae@gmail.com
+- **Phone**: +251975325354
+- **Location**: Addis Ababa, Ethiopia
+- **GitHub**: [EzekielMisgae](https://github.com/EzekielMisgae)
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 📞 Contact
-
-- **Email**: ezkielmisgae@gmail.com
-- **Phone**: +251975325354
-- **Location**: Addis Ababa, Ethiopia
-
 ---
 
-Built with ❤️ by Ezekiel M. Alene
+**Ezekiel M. Alene** - Software Engineer | Backend Development Specialist

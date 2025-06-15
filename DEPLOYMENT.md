@@ -1,46 +1,47 @@
-# GitHub Pages Deployment Guide
+# Render Deployment Guide
 
 ## 🚀 Automatic Deployment Setup
 
-This portfolio is configured for automatic deployment to GitHub Pages using GitHub Actions.
+This portfolio is configured for automatic deployment to Render using the `render.yaml` configuration file.
 
 ### Prerequisites
-- Repository: `https://github.com/EzekielMisgae/website`
-- GitHub Pages enabled in repository settings
+- Render account: [https://render.com](https://render.com)
+- GitHub repository connected to Render
 
 ### Setup Steps
 
-1. **Enable GitHub Pages in Repository Settings:**
-   - Go to your repository on GitHub
-   - Navigate to `Settings` → `Pages`
-   - Under "Source", select `GitHub Actions`
-   - Save the settings
+1. **Connect Repository to Render:**
+   - Go to [Render Dashboard](https://dashboard.render.com)
+   - Click "New" → "Static Site"
+   - Connect your GitHub repository
+   - Render will automatically detect the `render.yaml` configuration
 
-2. **Push Changes:**
-   ```bash
-   git add .
-   git commit -m "Add GitHub Pages deployment"
-   git push origin main
-   ```
+2. **Automatic Configuration:**
+   - Build Command: `npm ci && npm run build`
+   - Publish Directory: `./dist`
+   - Node Version: 18
+   - All settings are configured in `render.yaml`
 
-3. **Automatic Deployment:**
+3. **Deploy:**
    - Every push to `main` branch triggers automatic deployment
-   - Check the `Actions` tab in your repository to monitor deployment
-   - Your site will be available at: `https://ezekielmisgae.github.io/website/`
+   - Monitor deployment in Render dashboard
+   - Your site will be available at: `https://your-site-name.onrender.com`
 
-### Manual Build (Optional)
+### Manual Build (Local Testing)
 ```bash
+npm install
 npm run build
 npm run preview
 ```
 
 ### Custom Domain (Optional)
 To use a custom domain:
-1. Add a `CNAME` file to the `public/` directory with your domain
-2. Configure DNS settings with your domain provider
-3. Update repository settings to use the custom domain
+1. Go to your site settings in Render dashboard
+2. Add your custom domain in the "Custom Domains" section
+3. Configure DNS settings with your domain provider
 
 ## 📝 Notes
 - Build artifacts are automatically generated in the `dist/` folder
 - The site updates automatically on every push to main branch
-- Build status can be monitored in the GitHub Actions tab 
+- Build status can be monitored in the Render dashboard
+- Free tier includes 750 build hours per month 
